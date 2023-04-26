@@ -1,13 +1,12 @@
 .transactionHistory {
   border-collapse: collapse;
-  margin-left: 30px;
   margin-top: 50px;
   min-width: 800px;
 
   font-size: 19px;
   border-radius: 8px 8px 8px 8px;
   overflow: hidden;
-box-shadow: 0 10px 10px -5px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 10px 10px -5px rgba(0, 0, 0, 0.3);
 }
 
 .transactionHistory thead tr {
@@ -27,8 +26,8 @@ box-shadow: 0 10px 10px -5px rgba(0, 0, 0, 0.3);
 .transactionHistory td {
   padding: 13px 15px;
   text-align: center;
-  /* border: 1px solid #dddddd; */
 }
+
 .transactionHistory td {
   border-right: 1px solid #dddddd;
   border-left: 1px solid #dddddd;

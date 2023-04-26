@@ -1,23 +1,25 @@
 .profile {
-  min-width: 423px;
+  max-width: 423px;
 
   border-radius: 8px 8px 8px 8px;
   border: 1px solid #c0c0c0;
-box-shadow: 0 10px 10px -5px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 10px 10px -5px rgba(0, 0, 0, 0.3);
 }
 
 .description {
   margin-top: 50px;
+
   text-align: center;
 }
 
 .avatar {
-  border-radius: 50%;
-  background-color: #eee;
-  border: 1px solid #dcdcdc;
-  /* max-width: 100%; */
   margin-left: auto;
   margin-right: auto;
+
+  background-color: #eee;
+
+  border-radius: 50%;
+  border: 1px solid #dcdcdc;
 }
 
 .name {
@@ -45,19 +47,19 @@ box-shadow: 0 10px 10px -5px rgba(0, 0, 0, 0.3);
   display: flex;
   text-align: center;
   justify-content: space-between;
-  /* padding: 35px 35px; */
-
   margin-top: 50px;
   border-top: 2px solid #c0c0c0;
+
   background-color: #dddddd;
 }
 
 .stats li {
   display: flex;
   flex-direction: column;
-  width: 100%;
   padding-top: 20px;
   padding-bottom: 30px;
+  width: 100%;
+
   border-right: 2px solid #c0c0c0;
 }
 
@@ -70,7 +72,6 @@ box-shadow: 0 10px 10px -5px rgba(0, 0, 0, 0.3);
   font-size: 23px;
 }
 .quantity {
-  /* display: block; */
   margin-top: 5px;
   font-size: 25px;
   font-weight: 600;
