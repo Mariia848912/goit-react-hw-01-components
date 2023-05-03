@@ -1,3 +1,4 @@
+// import '../index.css'
 // Task 1
 import user from '../data/user';
 import { Profile } from './Profile/Profile';
